@@ -1,0 +1,18 @@
+#########################################
+# try-python-extlib requirements file (develop)
+# https://pip.pypa.io/en/stable/reference/pip_install/#example-requirements-file
+#########################################
+#---------------------------------------
+# Runtime
+#---------------------------------------
+-r requirements.txt
+
+#---------------------------------------
+# Develop
+#---------------------------------------
+black         # Code formatter
+flake8        # Linter
+ipython       # REPL
+mypy          # Type checker
+pydocstyle    # Docstring style checker
+pytest        # TDD
